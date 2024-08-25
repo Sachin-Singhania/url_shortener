@@ -79,7 +79,7 @@ function App() {
           <div className='mt-6'>
             <p className='text-xl font-semibold text-gray-800 mb-2  md:text-xl'>Your Shortened URL:</p>
             <div className='border p-4 rounded-md bg-gray-100 flex items-center flex-wrap justify-between'>
-              <a href={shorten} className='font-semibold text-blue-600 underline hover:text-blue-800 text-sm md:text-base'>
+              <a href={shorten} target="_blank" className='font-semibold text-blue-600 underline hover:text-blue-800 text-sm md:text-base'>
                 {shorten}
               </a>
               <button
